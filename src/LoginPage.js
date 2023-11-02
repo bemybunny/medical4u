@@ -72,14 +72,12 @@ function LoginPage() {
       </div>
       <form
         className="formele"
-        onSubmit={(e) => handleSubmit(e, login ? "signin" : "signup")}
-      >
+        onSubmit={(e) => handleSubmit(e, login ? "signin" : "signup")} >
         <input name="email" placeholder="Email" />
         <input name="password" type="password" placeholder="Password" />
         <button>{login ? "SignIn" : "SignUp"}</button>
-        <button onClick= {SIGN_IN_WITH_GOOGLE} className="google">Sign in with Google<FcGoogle size={22} className="icon" /></button>
       </form>
-      
+      <button onClick= {SIGN_IN_WITH_GOOGLE} className="google googlelogin">Sign in with Google<FcGoogle size={22} className="icon" /></button>
     </div>
   );
 }
