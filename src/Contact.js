@@ -1,7 +1,7 @@
 import React ,{useRef} from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
-
+import Nav from './Nav';
 function Contact() {
       const form = useRef();
 
@@ -18,13 +18,14 @@ function Contact() {
       };
   return (
     <div className="Contact">
+    <Nav/>
           <form ref={form} onSubmit={sendEmail}>
             <h3>GET IN TOUCH</h3>
             <input type ="text" id="name" placeholder="Your Name" required name="user_name"></input>
             <input type ="email" id="email" placeholder="Email Id" required name="user_email"></input>
             <textarea id="message" placeholder="How can i help you?" name="message"></textarea>
             <button type="submit">Submit</button>
-          </form>
+          </form> 
     </div>
   )
 }
