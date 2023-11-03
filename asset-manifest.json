@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/medical4u/static/css/main.9b6da418.css",
+    "main.js": "/medical4u/static/js/main.dc03e7eb.js",
+    "index.html": "/medical4u/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9b6da418.css",
+    "static/js/main.dc03e7eb.js"
+  ]
+}
