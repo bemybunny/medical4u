@@ -41,28 +41,31 @@ function LoginPage() {
   };
   return (
     <div className="Login">
-      <div className="row">
-        <div
-          className={login === false ? "acitveColor" : "pointer"}
-          onClick={() => setLogin(false)}
+     <img src="doctor2.png" alt=""></img>
+     <div>
+          <div className="row">
+              <div
+                  className={login === false ? "acitveColor" : "pointer"}
+                  onClick={() => setLogin(false)}
+                >
+                  SignUp
+                </div>
+                <div
+                  className={login === true ? "acitveColor" : "pointer"}
+                  onClick={() => setLogin(true)}
+                >
+                  SignIn
+                </div>
+          </div>
+        <form
+          className="forminput"
+          onSubmit={(e) => handleSubmit(e, login ? "signin" : "signup")}
         >
-          SignUp
-        </div>
-        <div
-          className={login === true ? "acitveColor" : "pointer"}
-          onClick={() => setLogin(true)}
-        >
-          SignIn
-        </div>
+          <input className="inputlogin" name="email" placeholder="Email" />
+          <input className="inputlogin" name="password" type="password" placeholder="Password" />
+          <button className="signupbtn">{login ? "SignIn" : "SignUp"}</button>
+        </form>
       </div>
-      <form
-        className="formele"
-        onSubmit={(e) => handleSubmit(e, login ? "signin" : "signup")}
-      >
-        <input name="email" placeholder="Email" />
-        <input name="password" type="password" placeholder="Password" />
-        <button>{login ? "SignIn" : "SignUp"}</button>
-      </form>
     </div>
   );
 }

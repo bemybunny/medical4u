@@ -1,15 +1,23 @@
 .Login{
+    display:flex;
     margin-left:auto;
     margin-right:auto;
+    background-color: #5EBEC4;
+    height:100vh;
+    width:100vw;
+}
+.Login>img{
+    height:100vh;
 }
 .row{
     display:flex;
-    margin-left:300px;
-    margin-right:300px;
-    margin-top:50px;
-}
-.row>div{
+    margin-left:200px;
+    margin-right:100px;
     gap:50px;
+    margin-top:100px;
+}
+
+.row>div{
     text-align:center;
     padding:15px;
     background:white;
@@ -28,10 +36,33 @@
 .pointer{
     cursor:pointer
 }
-.formele{
-    margin-left:auto;
-    margin-right:auto;
+.forminput{
+    margin-left:200px;
     margin-top:100px;
     background-color:white;
+    width:500px;
 }
 
+.inputlogin{
+   width:300px;
+}
+.signupbtn{
+    text-align:center;
+    padding:15px;
+    background:#5EBEC4;
+    color:white;
+    font-size:18px;
+    border:0;
+    cursor:pointer;
+    outline:none;
+    width:150px;
+    margin:20px auto 0;
+    border-radius :30px;
+}
+.signupbtn:hover{
+    font-weight:bold;
+    color:#5EBEC4;
+    background-color: white;
+    border:2px solid #5EBEC4;
+    transform:scale(1.05);
+}

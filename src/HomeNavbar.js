@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { auth } from "./FirebaseConfig";
-import "./Login.css";
+import "./Home.css";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 function HomeNavbar(){

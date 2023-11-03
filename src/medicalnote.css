@@ -1,13 +1,14 @@
 
-   .medicalnote {
-      text-align: center;
-      font-family: Arial, sans-serif;
-      margin: 0 auto;
-      width: 60%;
-      padding: 20px;
-      background-color: #f2f2f2;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   
+   .backgroundImage{
+    height:100vh;
+    width:100vw;
+    background:rgba(0,0,0,0.4);
+    background: linear-gradient(rgba(0,0,0,0.8) , 
+    rgba(0,0,0,0)), 
+    url("https://getwallpapers.com/wallpaper/full/e/9/6/815845-free-download-doctor-wallpapers-1920x1200.jpg") center no-repeat;
+        background-size:cover;
+        background-repeat:repeat-y;
     }
     
     h1 {
@@ -15,8 +16,9 @@
       margin-bottom: 20px;
     }
     
+
     .input-container {
-      margin-top:100px;
+      padding:150px;
       display: flex;
       justify-content: space-between;
       align-items: center;

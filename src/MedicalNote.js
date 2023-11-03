@@ -111,7 +111,9 @@ function MedicalNote() {
     };
   
     return (
-      <div className="App">
+      <div className="backgroundImage">
+         <Nav/>
+      <div className="medicalnote">
         <div className="input-container">
           <input
             type="text"
@@ -164,6 +166,7 @@ function MedicalNote() {
       )}
       <audio ref={audioRef} src="alarm.mp3" preload="auto" />
       <Chatbot/>
+    </div>
     </div>
   );
 }

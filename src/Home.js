@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import HomeNavbar from './HomeNavbar';
+import Whyus from './Whyus'
+
 function Home() {
   return (
         <div  >
@@ -17,6 +19,7 @@ Today, our company is filled with people passionate about serving seniors and ca
 </h5>
 </div>
           </div>
+          <Whyus/>
         </div>
   )
 }

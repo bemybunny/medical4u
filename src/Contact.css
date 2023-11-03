@@ -7,7 +7,15 @@
 .Contact{
     width:100%;
     height:100vh;
-    background:#333;
+    height:100vh;
+    width:100vw;
+    background:rgba(0,0,0,0.4);
+    background: linear-gradient(rgba(0,0,0,0.8) , 
+    rgba(0,0,0,0)), 
+    url(" https://www.kindpng.com/picc/m/60-606338_contact-us-page-for-background-hd-png-download.png") center no-repeat;
+        background-size:cover;
+        background-repeat:repeat-y;
+   
     display:flex;
     align-items:center;
     justify-content:center;
@@ -18,7 +26,7 @@ form{
     flex-direction:column;
     padding:2vw 4vw;
     width:90%;
-    max-width: 600px;
+    max-width: 300px;
     border-radius:10px;
 }
 form h3{
@@ -50,4 +58,9 @@ form button{
     width:150px;
     margin:20px auto 0;
     border-radius :30px;
+}
+form button:hover{
+    transform :scale(1.05);
+    color:white;
+    background-color: red;
 }

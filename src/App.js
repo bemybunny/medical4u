@@ -8,6 +8,7 @@ import RoomPage from './RoomPage'
 import Chatbot from './Chatbot';
 import LoginPage from './LoginPage';
 import HomePage from './HomePage'
+import EmergencyContact from './EmergencyContact';
 function App() {
   return (
     <Router> {/* Wrap the entire app with the Router */}
@@ -22,6 +23,7 @@ function App() {
           </Route>
           <Route path="/room/:roomId" element={<RoomPage/>}/>
           <Route path="/Chatbot" element={<Chatbot/>}/>
+          <Route path="/EmergencyContact" element={<EmergencyContact/>}/>
         </Routes>
       </div>
     </Router>

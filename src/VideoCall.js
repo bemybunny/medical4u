@@ -10,11 +10,13 @@ function VideoCall(){
             navigate(`/room/${value}`)
     },[navigate,value])
     return (
+        <div className="videocallImage">
         <div className="videoCall">
             <Nav/>
             <input value={value} type="text" onChange={(e)=>setValue(e.target.value)} placeholder="Enter Room Code"/>
             <button onClick={handleJoinRoom} >Join</button>
             <Chatbot/>
+        </div>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import {signOut} from  'firebase/auth'
 import {auth} from './FirebaseConfig';
 import {useNavigate} from 'react-router-dom';
-import './App.css'
+import './Nav.css'
  const Logout = () => { 
 
   const history = useNavigate()
@@ -15,8 +15,8 @@ import './App.css'
   }
 
   return (
-    <div>
-        <button className="button" onClick={logout}>Logout</button>
+    <div >
+        <button className="logoutButton" onClick={logout}>Logout</button>
   </div>
   )
 }

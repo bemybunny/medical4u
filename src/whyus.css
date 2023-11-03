@@ -1,0 +1,19 @@
+.whyus{
+    display:flex;  
+    align-items:center;
+    background-color:rgb(209, 228, 247);
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:125px;
+    padding-bottom:120px;
+     gap:40px;
+}
+
+.headingbold{
+    font-size:50px;
+    margin-bottom:10px;
+}
+.whyusImage{
+    height:400px;
+    width:600px;
+}
