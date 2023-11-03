@@ -2,6 +2,7 @@ import React,{useState,useCallback} from 'react';
 import {useNavigate} from 'react-router-dom'
 import './videoCall.css'
 import Nav from './Nav';
+import Chatbot from './Chatbot';
 function VideoCall(){
     const [value,setValue]=useState();
     const navigate = useNavigate();
@@ -13,6 +14,7 @@ function VideoCall(){
             <Nav/>
             <input value={value} type="text" onChange={(e)=>setValue(e.target.value)} placeholder="Enter Room Code"/>
             <button onClick={handleJoinRoom} >Join</button>
+            <Chatbot/>
         </div>
     );
 }

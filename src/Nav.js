@@ -11,7 +11,7 @@ function Nav() {
       <div className="group">
         <ul>
           <li>
-            <Link to="/Home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/MedicalNote">MedicalNote</Link>
@@ -24,9 +24,6 @@ function Nav() {
           </li>
           <li>
             <Logout/>
-          </li>
-          <li>
-            <Link to="/Chatbot">Chatbot</Link>
           </li>
         </ul>
       </div>

@@ -1,0 +1,44 @@
+.home{
+    display:flex;
+   
+}
+
+.doctor{
+    margin-left:100px;
+    margin-top:50px;
+    height:500px;
+    width:500px;
+}
+.HomeNavbar{
+    top:0;
+    display:flex;
+    height:70px;
+    background-color:white;
+    width:100vw;
+    align-items:center;
+    justify-content:space-between;
+    padding-left:50px;
+    padding-right:50px;
+}
+.log{
+    gap:20px;
+    display:flex;
+}
+.logo{
+    color:#05afbb
+}
+.headings{
+    margin-top:120px;
+    margin-right:100px;
+}
+.headings>h1{
+    font-size:50px;
+    color:white;
+}
+.headings>h5{
+    color:white;
+    font-size:20px;
+}
+.logopic{
+    height:30px;
+}

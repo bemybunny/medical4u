@@ -113,3 +113,8 @@
     .remove-button:hover {
       background-color: #c82333;
     }
+.task-item{
+  margin-left:auto;
+  margin-right:auto;
+  width:70vw;
+}

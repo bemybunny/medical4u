@@ -2,6 +2,7 @@ import React ,{useRef} from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
 import Nav from './Nav';
+import Chatbot from './Chatbot';
 function Contact() {
       const form = useRef();
 
@@ -26,6 +27,7 @@ function Contact() {
             <textarea id="message" placeholder="How can i help you?" name="message"></textarea>
             <button type="submit">Submit</button>
           </form> 
+          <Chatbot/>
     </div>
   )
 }
